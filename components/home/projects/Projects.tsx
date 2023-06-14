@@ -56,7 +56,7 @@ const projects = [
   },
   {
     title: "ChatGPT Clone",
-    imgSrc: "project-imgs/ScreenShot.png",
+    imgSrc: "project-imgs/gpt-clone.png",
     code: "https://github.com/papapatcharakit/chatgpt-clone",
     tech: ["React", "NextJS", "OpenAI"],
     description:
