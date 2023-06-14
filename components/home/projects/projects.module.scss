@@ -36,7 +36,9 @@
 
 .projectTitle {
   display: flex;
-  align-items: center;
+  align-items: right;
+  width: 100%;
+  justify-content: space-between;
   gap: 1.2rem;
 
   h4 {
@@ -62,6 +64,8 @@
   height: 1px;
   background: var(--text);
   opacity: 0.3;
+  align-self: end;
+  
 }
 
 .projectDescription {
@@ -93,3 +97,12 @@
 
   margin: 0.8rem 0;
 }
+
+.statGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+

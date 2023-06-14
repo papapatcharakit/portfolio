@@ -1,13 +1,15 @@
 :root {
   font-size: 62.5%;
-
-  --background: rgb(17, 17, 17);
-  --bg-opaque: rgb(17, 17, 17, 0.25);
-  --background-light: rgb(35, 35, 35);
-  --background-dark: rgb(8, 8, 8);
+  
+  --background-dark: rgb(3, 16, 22);
+  --background: rgb(7, 19, 27);
+  --bg-opaque: rgb(7, 19, 27, 0.25);
+  --background-light: rgb(22, 38, 53);
+ 
 
   --text: rgb(235, 236, 243);
-  --brand: rgb(85, 167, 134);
+  --brand: rgb(196, 81, 98)
+  ;
 
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;
@@ -61,6 +63,13 @@ a {
 }
 
 .chip {
+  font-size: var(--text-xs);
+  background: var(--background-light);
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+}
+
+.chip-project {
   font-size: var(--text-xs);
   background: var(--background-light);
   padding: 0.2rem 0.8rem;

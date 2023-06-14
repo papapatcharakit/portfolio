@@ -5,7 +5,7 @@ import styles from "./projects.module.scss";
 export const Projects = () => {
   return (
     <section className="section-wrapper" id="projects">
-      <SectionHeader title=" Academic Projects" dir="r" />
+      <SectionHeader title="Projects" dir="r" />
 
       <div className={styles.projects}>
         {projects.map((project) => {
@@ -19,7 +19,7 @@ export const Projects = () => {
 const projects = [
   {
     title: "EEG - Based Biometric System Using Deep Learning",
-    imgSrc: "project-imgs/eeg-based-biometric1.png",
+    imgSrc: "project-imgs/eeg.png",
     code: "https://github.com/papapatcharakit/eeg-based-biometric-identification-system-using-deep-learning-algorithm.git",
     tech: ["TensorFlow", "Python", "Neuroscience", "Image Processing", "Deep Learning"],
     description:
@@ -38,9 +38,9 @@ const projects = [
   },
   {
     title: "Q&A System ",
-    imgSrc: "project-imgs/qa_.png",
+    imgSrc: "project-imgs/qa__.png",
     code: "https://github.com/papapatcharakit/telecom-qa-app-backend.git",
-    tech: ["PyTorch", "Python", "FastAPI", "MySQL", "Docker", "GCP", "POSTMAN", "NLP"],
+    tech: ["PyTorch", "Python", "FastAPI", "MySQL", "Docker", "GCP", "NLP"],
     description:
       "Develop a Thai question-answering system utilizing BERT and launch it in production, aimed at introducing information about the Department of Telecommunication Engineering, KMITL.",
     modalContent: (
@@ -50,6 +50,21 @@ const projects = [
         </p>
         <p>
           The motivation behind this project arose from the challenges faced in finding relevant information from numerous curriculum books regarding Department courses, including details on credits and compulsory subjects. Consequently, I developed this system to simplify the process for users in accessing such information.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "ChatGPT Clone",
+    imgSrc: "project-imgs/ScreenShot.png",
+    code: "https://github.com/papapatcharakit/chatgpt-clone",
+    tech: ["React", "NextJS", "OpenAI"],
+    description:
+      "ChatGPT clone with my own Thai question-answerer web service. ",
+    modalContent: (
+      <>
+        <p>
+        The main purpose of this project is to learn and practice my website-making skills. With this in mind, I have embarked on creating a website by cloning the ChatGPT platform. Additionally, I have integrated my own Thai question-answerer API, which is specifically designed to provide information related to the Department of Telecommunication Engineering at KMITL. This API is incorporated into my cloned ChatGPT.
         </p>
       </>
     ),

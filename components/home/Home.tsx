@@ -11,7 +11,7 @@ import { Contact } from "./contact/Contact";
 export const Home = () => {
   return (
     <>
-      <div className={styles.home}>
+      <div id="home" className={styles.home}>
         <SideBar />
         <main>
           <Heading />

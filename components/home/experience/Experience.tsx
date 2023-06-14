@@ -18,7 +18,7 @@ const experience = [
     position: "Software Engineer Internship",
     time: "June - July 2022",
     description:
-      "Being a part of the automatic parking management system team. Responsible for developing native android applications (for parking fees and payments) and embedded devices.",
+      "Being a part of the automatic parking management system team. Responsible for developing native android application installed in the parking payment machine for paying parking fees through various payment methods.",
     tech: [
       "Android",
       "Java",

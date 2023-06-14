@@ -15,7 +15,7 @@ export const Hero = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           className={styles.title}>
-          Hey, I&apos;m Pat<span>.</span>
+          Hey, I&apos;m Aoey<span>.</span>
         </motion.h1>
 
         <motion.h2
@@ -23,16 +23,16 @@ export const Hero = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           className={styles.subTitle}>
-          I&apos;m a <span>Full Stack Developer</span>
+          I&apos;m a <span>Software Engineer</span>
         </motion.h2>
 
-        <motion.p
+        <motion.h3
           initial={{ x: -70, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className={styles.aboutCopy}>
           Seeking a position as a Software Engineer or else, where I can apply my skills to make the most of for company along with learning new things and acquiring valuable experience over the long term.
-        </motion.p>
+        </motion.h3>
 
         <motion.a
           initial={{ x: -70, opacity: 0 }}
@@ -40,7 +40,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.5 }}>
           <StandardButton
             onClick={() => document.getElementById("contact")?.scrollIntoView()}>
-            Contact me
+            Contact Me
           </StandardButton>
         </motion.a>
       </div>

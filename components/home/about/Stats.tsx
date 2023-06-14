@@ -23,7 +23,6 @@ export const Stats = () => {
             <span className="chip">C/C++</span>
             <span className="chip">GCP</span>
             <span className="chip">Docker</span>
-            <span className="chip">Postman</span>
             <span className="chip">FastAPI</span>
             <span className="chip">PyTorch/TensorFlow</span>
           </div>

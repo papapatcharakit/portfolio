@@ -6,6 +6,7 @@ import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
 
+
 interface Props {
   modalContent: JSX.Element;
   description: string;
@@ -71,16 +72,26 @@ export const Project = ({
           <Reveal width="100%">
             <div className={styles.projectTitle}>
               <h4>{title}</h4>
-              <div className={styles.projectTitleLine} />
+              {/* <div className={styles.projectTitleLine} /> */}
 
-              <Link href={code} target="_blank" rel="nofollow">
+              <Link href={code} target="_blank" rel="nofollow" className="icon_project">
                 <AiFillGithub size="2.8rem" />
               </Link>
 
             </div>
           </Reveal>
           <Reveal>
-            <div className={styles.projectTech}>{tech.join(" - ")}</div>
+
+            <div className={styles.statGrid}>
+            {
+              tech.map((t, index) => {
+                return <a key={index} className="chip-project">{t}</a>
+              })
+            }
+            </div>
+
+            {/* <div className={styles.projectTech}>{tech.join(" - ")}</div> */}
+            
           </Reveal>
           <Reveal>
             <p className={styles.projectDescription}>
