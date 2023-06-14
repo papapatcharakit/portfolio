@@ -14,7 +14,7 @@ export const About = () => {
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               Hello! I&apos;m Aoey, or you can call me Patcharakit Yangdiaw 
-              if you want to go for the full name, and I&apos;m excited to gat a chance to share a bit about myself with you.
+              if you want to go for the full name, and I&apos;m excited to get a chance to share a bit about myself with you.
               Currently, I&apos;m pursuing my bachelor&apos;s degree in Telecommunication Engineering from KMITL,
               and I&apos;m just a few months away from completing my program.
             </p>
